@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  icons: {
+    icon: "/favicon.png",
+    apple: "/favicon.png",
+  },
   title: "Striikers — AI Transformation Partner for Indian Enterprises",
   description:
     "Striikers partners with Indian enterprises to move through the full AI transformation journey — audit, awareness, capability building, and implementation. Based in Hyderabad.",
