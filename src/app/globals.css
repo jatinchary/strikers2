@@ -1623,10 +1623,13 @@ footer {
   margin-bottom: 48px;
 }
 .footer-brand-logo-row {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 10px;
   margin-bottom: 14px;
+  background: #f7f8fc;
+  padding: 8px 16px 8px 8px;
+  border-radius: 10px;
 }
 .footer-logo-wrap {
   width: 40px;
@@ -1635,9 +1638,6 @@ footer {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  background: #fff;
-  border-radius: 8px;
-  padding: 4px;
 }
 .footer-logo {
   width: 100%;
@@ -1647,8 +1647,8 @@ footer {
 .footer-brand-wordmark {
   font-size: 22px;
   font-weight: 800;
-  letter-spacing: 2px;
-  background: linear-gradient(90deg, #fff, var(--cyan));
+  letter-spacing: 2.5px;
+  background: linear-gradient(90deg, var(--navy), var(--blue));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
