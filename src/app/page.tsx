@@ -843,7 +843,7 @@ export default function Home() {
             <div className="team-card">
               <div className="team-card-visual">
                 <img
-                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=300&fit=crop&crop=faces"
+                  src="/vp.png"
                   alt="R. Karthik — Vice President"
                   className="team-photo"
                 />
