@@ -1270,11 +1270,6 @@ section {
   gap: 6px;
 }
 
-@media (max-width: 960px) {
-  .team-row {
-    grid-template-columns: 1fr;
-  }
-}
 
 /* ─── TESTIMONIALS ─── */
 .testi {
@@ -1831,9 +1826,20 @@ footer {
   .about-grid {
     grid-template-columns: 1fr;
   }
-  .hero-visual,
-  .about-visual {
+  .hero-visual {
     display: none;
+  }
+  .about-visual {
+    display: flex;
+    justify-content: center;
+  }
+  .about-card {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  .about-exp-chip {
+    top: -12px;
+    right: 0;
   }
   .domains-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -1885,6 +1891,33 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     bottom: 56px;
+  }
+  .team-row {
+    grid-template-columns: 1fr 1fr !important;
+    max-width: 500px;
+    gap: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .team-card-visual {
+    aspect-ratio: 0.9;
+  }
+  .team-name {
+    font-size: 16px;
+  }
+  .team-role {
+    font-size: 11px;
+  }
+  .team-info {
+    padding: 16px;
+  }
+  .team-info p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .team-creds .cred {
+    font-size: 10px;
+    padding: 4px 10px;
   }
 }
 @media (max-width: 480px) {
