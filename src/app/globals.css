@@ -1618,7 +1618,7 @@ footer {
 }
 .footer-top {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
   gap: 48px;
   margin-bottom: 48px;
 }
@@ -1692,10 +1692,16 @@ footer {
   gap: 10px;
 }
 .fcol ul a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   color: rgba(255, 255, 255, 0.5);
   text-decoration: none;
   font-size: 13px;
   transition: color 0.2s;
+}
+.fcol ul a svg {
+  flex-shrink: 0;
 }
 .fcol ul a:hover {
   color: #fff;
