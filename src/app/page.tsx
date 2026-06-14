@@ -41,7 +41,7 @@ export default function Home() {
           <div>
             <div className="hero-pill">
               <span className="pill-dot" aria-hidden="true"></span>
-              India&apos;s AI Transformation Partner for Enterprises
+              Accelerating Enterprise Transformation Through Practical AI
             </div>
             <h1>
               From AI <span className="grad">Awareness</span>
@@ -49,9 +49,7 @@ export default function Home() {
               to AI <span className="grad">Implementation</span>
           </h1>
             <p className="hero-sub">
-              We take Indian organisations through the full AI journey — audit,
-              capability building, and embedded implementation — across every
-              function.
+            We help organisations assess readiness, build capability, redesign workflows, and embed AI into everyday business operations.
             </p>
             <div className="hero-btns">
               <a
@@ -61,12 +59,12 @@ export default function Home() {
                 Book a Discovery Call
               </a>
               <a href="#services" className="btn-ghost">
-                See What We Do
+              Explore Our Solutions
               </a>
             </div>
             <div className="hero-trust">
-              <span className="hero-trust-text">Trusted by</span>
-              <span className="trust-chip">200+ Professionals</span>
+              {/* <span className="hero-trust-text">Trusted by</span>
+              <span className="trust-chip">Driving AI Adoption Across Diverse Industries</span> */}
             </div>
           </div>
           <div className="hero-visual" aria-hidden="true">
@@ -106,7 +104,7 @@ export default function Home() {
               <div className="j-num j-n5">5</div>
               <div className="j-text">
                 <strong>Scale &amp; Sustain</strong>
-                <span>Retainer support to maintain momentum</span>
+                <span>support to maintain momentum</span>
               </div>
               <div className="j-arrow">›</div>
             </div>
@@ -115,7 +113,7 @@ export default function Home() {
       </section>
 
       {/* ═══ STATS BAR ═══ */}
-      <div className="stats-bar" role="region" aria-label="Key metrics">
+      {/* <div className="stats-bar" role="region" aria-label="Key metrics">
         <div className="stats-inner">
           <div>
             <div className="stat-n">16+</div>
@@ -139,7 +137,7 @@ export default function Home() {
             <div className="stat-source">Measured in-session</div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* ═══ JOURNEY ═══ */}
       <section className="journey-section" id="journey">
@@ -259,26 +257,24 @@ export default function Home() {
                 AI Awareness &amp; Capability Workshops
               </div>
               <p className="svc-desc">
-                Function-specific workshops designed to move teams from curiosity
-                to competence. Not generic AI training — each program is built
-                around the actual work of the function being trained.
+              Role-based AI capability programs designed to help teams move from awareness to practical adoption. Each engagement is tailored to the workflows, priorities, and business objectives of the function—ensuring measurable application beyond the workshop.
               </p>
               <ul className="svc-list">
                 <li>
                   Available for: L&amp;D, HR, Finance, Operations, Sales,
-                  Marketing, IT, Legal, C-Suite, and more
+                  Marketing, IT, Legal, Leadership, and more
                 </li>
-                <li>Executive Briefing (4 hrs) — for leadership alignment</li>
+                <li>Executive AI Briefing (4 hours) — strategic alignment for leadership teams</li>
                 <li>
-                  Practitioner Certification (1 day) — for functional teams
-                </li>
-                <li>
-                  Agentic AI Intensive (2 days) — for deep transformation
+                Practitioner Certification (1 day) — hands-on enablement for functional teams
                 </li>
                 <li>
-                  Pre-workshop diagnostic + 30-day application plan included
+                Agentic AI Intensive (2 days) — workflow redesign and transformation acceleration
                 </li>
-                <li>Follow-up check-in at 30 days</li>
+                <li>
+                Pre-engagement assessment and customised action roadmap
+                </li>
+                <li>30-day adoption check-in and progress review</li>
               </ul>
               <div className="svc-price">
                 <a href="#programs" className="svc-cta">See Programs →</a>
@@ -325,7 +321,7 @@ export default function Home() {
                 iteration, team upskilling, and board-level AI strategy.
               </p>
               <ul className="svc-list">
-                <li>Monthly strategy sessions with CHRO / CTO / COO</li>
+                <li>Monthly strategy sessions with Leadership</li>
                 <li>Continuous tool evaluation and adoption support</li>
                 <li>Quarterly AI maturity assessment</li>
                 <li>Priority access for new workshops and programs</li>
@@ -363,8 +359,8 @@ export default function Home() {
                 rebuilt with AI.
               </div>
               <div className="domain-tags">
-                <span className="dtag">Most Requested</span>
-                <span className="dtag">67% time saved</span>
+                {/* <span className="dtag">Most Requested</span>
+                <span className="dtag">67% time saved</span> */}
               </div>
             </div>
             <div className="domain-card">
@@ -386,7 +382,7 @@ export default function Home() {
                 AI governance.
               </div>
               <div className="domain-tags">
-                <span className="dtag">4-hr format</span>
+                {/* <span className="dtag">4-hr format</span> */}
               </div>
             </div>
             <div className="domain-card">
@@ -510,8 +506,7 @@ export default function Home() {
                 <div className="audit-step-text">
                   <strong>Executive Presentation</strong>
                   <span>
-                    Findings presented to CHRO, COO, or board — with full
-                    Q&amp;A and next-steps planning session included.
+                  Findings and strategic recommendations presented to leadership, with an executive discussion on priorities, roadmap decisions, and next-step actions.
                   </span>
                 </div>
               </div>
@@ -609,30 +604,26 @@ export default function Home() {
         <div className="sec">
           <div className="sec-label">Workshop Programs</div>
           <h2 className="sec-title">
-            Three Formats. Every Function. Real Outcomes.
+          Three Engagement Models. Every Function. Measurable Impact.
           </h2>
           <p className="sec-sub">
-            Available for L&amp;D, HR, Finance, Operations, Marketing, Sales, IT,
-            and more. The format stays the same. The content is rebuilt for each
-            function.
+          Available across Marketing, Sales, L&D, HR, Finance, Operations, , IT, and more. Our proven delivery framework remains consistent while each engagement is tailored to the priorities, workflows, and outcomes of the function.
           </p>
           <div className="programs-grid">
             {/* Program 1 */}
             <div className="prog-card">
               <div className="prog-icon" role="img" aria-label="Executive">🏛️</div>
               <div className="prog-name">Executive AI Briefing</div>
-              <div className="prog-dur">4 Hours · Up to 8 Senior Leaders</div>
+              <div className="prog-dur"> 4 Hours · Leadership Cohort (Up to 8 Participants)</div>
               <p className="prog-desc">
-                For CHROs, COOs, CFOs, VPs, and board members. Builds AI literacy
-                and leadership conviction — not hands-on building, but confident
-                strategic decision-making about AI for your organisation.
+              A strategic leadership session designed to align executives around AI opportunities, risks, and business priorities. Focused on decision-making—not tools—this briefing helps leadership teams build a practical roadmap for enterprise AI adoption.
               </p>
               <ul className="prog-feats">
-                <li>What AI means for your specific function and industry</li>
-                <li>Where the highest-impact opportunities are</li>
-                <li>Build vs. buy vs. train decision framework</li>
-                <li>Risks, governance, and responsible AI</li>
-                <li>90-day leadership action plan</li>
+                <li>Industry-specific AI landscape and business implications</li>
+                <li>Opportunity identification and prioritisation framework</li>
+                <li>Build vs buy vs partner strategic decisions</li>
+                <li>Governance, compliance, and operating considerations</li>
+                <li>Leadership roadmap with immediate next actions</li>
               </ul>
               <div className="prog-price-row">
                 <a
@@ -646,23 +637,21 @@ export default function Home() {
 
             {/* Program 2 — Featured */}
             <div className="prog-card featured">
-              <span className="prog-pop-badge">⭐ MOST POPULAR</span>
+              <span className="prog-pop-badge">⭐ Recommended</span>
               <div className="prog-icon" role="img" aria-label="Trophy">🏆</div>
-              <div className="prog-name">Practitioner Certification</div>
+              <div className="prog-name">AI Practitioner Certification</div>
               <div className="prog-dur">1 Full Day · Up to 15 Participants</div>
               <p className="prog-desc">
-                For functional managers and practitioners. Hands-on all day.
-                Participants rebuild their actual daily workflows using AI — and
-                leave with tools that work on Day 2.
+              Designed for functional managers and practitioners who want to move beyond AI awareness into practical application. Participants work directly on their real workflows, build usable AI solutions, and leave with capabilities that can be applied immediately within their teams.
               </p>
               <ul className="prog-feats">
                 <li>
-                  Function-specific use cases only — no generic content
+                Function-specific use cases tailored to real business scenarios
                 </li>
-                <li>Build 5 working AI tools during the session</li>
-                <li>Pre-workshop diagnostic to customise the agenda</li>
-                <li>30-day application plan per participant</li>
-                <li>30-day check-in call included</li>
+                <li>Build up to 5 practical AI solutions during the session</li>
+                <li>Pre-program diagnostic to customise priorities and agenda</li>
+                <li>Individual 30-day application and adoption plan</li>
+                <li>Follow-up session to reinforce implementation and outcomes</li>
                 <li>Certificate of completion</li>
               </ul>
               <div className="prog-price-row">
@@ -670,41 +659,40 @@ export default function Home() {
                   href="#contact"
                   className="prog-btn prog-btn-fill"
                 >
-                  Book This Program
+                  Build AI Capability
                 </a>
               </div>
             </div>
 
             {/* Program 3 */}
             <div className="prog-card">
+            <span className="prog-pop-badge">⭐ Recommended</span>
               <div className="prog-icon" role="img" aria-label="Rocket">🚀</div>
-              <div className="prog-name">Agentic AI Intensive</div>
+              <div className="prog-name">Agentic AI Transformation Intensive</div>
               <div className="prog-dur">
-                2 Full Days · Up to 20 Participants
+              2 Full Days · Up to 20 Participants
               </div>
               <p className="prog-desc">
-                The full transformation. Your team doesn&apos;t just learn AI tools —
-                they rebuild their entire function&apos;s core processes using agentic
-                workflows, automation, and AI-native ways of working.
+              An immersive transformation program designed for teams ready to redesign how work gets done. Participants move beyond using AI tools and begin embedding agentic workflows, automation, and AI-enabled operating models into core business processes.
               </p>
               <ul className="prog-feats">
                 <li>
-                  Day 1: Workflow audit + AI tool integration per role
+                Day 1: Workflow assessment and AI integration planning by role
                 </li>
                 <li>
-                  Day 2: Agentic pipelines, automation, dashboards
+                Day 2: Agentic workflow design, automation, and implementation
                 </li>
-                <li>24+ tools across the function&apos;s full lifecycle</li>
-                <li>8–10 working systems built per participant</li>
+                <li>Exposure to 24+ tools across the functional lifecycle</li>
+                <li>Build 8–10 working systems and practical use cases</li>
                 <li>90-day function transformation roadmap</li>
-                <li>90-day advisory support included</li>
+                <li>90-day advisory support to sustain adoption and impact</li>
               </ul>
               <div className="prog-price-row">
                 <a
                   href="mailto:strikers4you@gmail.com?subject=Agentic AI Intensive Enquiry"
                   className="prog-btn prog-btn-out"
                 >
-                  Enquire Now
+                  Explore Transformation Program
                 </a>
               </div>
             </div>
@@ -713,12 +701,9 @@ export default function Home() {
           {/* Retainer Strip */}
           <div className="retainer-strip">
             <div className="ret-left">
-              <h4>AI Advisory Retainer — For Ongoing Transformation</h4>
+              <h4>AI Advisory Partnership — Sustaining Transformation</h4>
               <p>
-                Monthly partnership for organisations that want to maintain AI
-                momentum, evaluate emerging tools, iterate on workflows, and keep
-                leadership aligned. The fastest-transforming organisations
-                don&apos;t stop at one workshop.
+              A strategic partnership for organisations that want to maintain AI momentum, evaluate emerging tools, iterate on workflows, and keep leadership aligned. The fastest-transforming organisations don't stop at one workshop.
               </p>
             </div>
             <div className="ret-right" style={{ textAlign: "right", flexShrink: 0 }}>
@@ -745,7 +730,7 @@ export default function Home() {
 
       {/* ═══ ABOUT ═══ */}
       <section className="about" id="about">
-        <div className="sec">
+        {/* <div className="sec">
           <div className="about-grid">
             <div className="about-visual">
               <div className="about-card">
@@ -811,10 +796,10 @@ export default function Home() {
                 Connect on LinkedIn
               </a>
             </div>
-          </div>
+          </div> */}
 
           {/* Co-Founder & Vice President */}
-          <div className="team-row">
+          {/* <div className="team-row">
             <div className="team-card">
               <div className="team-card-visual">
                 <img
@@ -865,11 +850,11 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
 
       {/* ═══ WORKBOOK ═══ */}
-      <section className="workbook">
+      {/* <section className="workbook">
         <div className="sec">
           <div className="workbook-box">
             <div className="wb-left">
@@ -911,7 +896,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* ═══ FAQ ═══ */}
       <FaqSection />
@@ -1010,7 +995,7 @@ export default function Home() {
           <p className="cta-contact" style={{ marginTop: "20px" }}>
             Or email directly:{" "}
             <a href="mailto:strikers4you@gmail.com">strikers4you@gmail.com</a> ·
-            Hyderabad, India · Serving organisations across India
+            Hyderabad, India · Supporting organisations anywhere their teams are
           </p>
         </div>
       </section>
@@ -1033,9 +1018,7 @@ export default function Home() {
                 <span className="footer-brand-wordmark">STRIIKERS</span>
               </div>
               <p>
-                AI transformation partner for Indian enterprises — from audit and
-                awareness through to full implementation. Built by a
-                practitioner. Delivered for results.
+              Helping organisations assess readiness, build capability, redesign workflows, and embed AI into everyday operations—turning AI potential into measurable business outcomes.
               </p>
               <div className="footer-contact-row">
                 <a href="mailto:strikers4you@gmail.com" className="footer-contact-link">
@@ -1051,7 +1034,7 @@ export default function Home() {
                   </svg>
                   WhatsApp Us
                 </a>
-                <a href="https://linkedin.com/in/sriharisslr" className="footer-contact-link" target="_blank" rel="noopener noreferrer">
+                <a href="https://linkedin.com/in" className="footer-contact-link" target="_blank" rel="noopener noreferrer">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                     <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
                   </svg>
@@ -1063,36 +1046,38 @@ export default function Home() {
               <h4>Services</h4>
               <ul>
                 <li><a href="#audit">AI Readiness Audit</a></li>
-                <li><a href="#services">Awareness Workshops</a></li>
-                <li><a href="#services">AI Implementation</a></li>
-                <li><a href="#services">Advisory Retainer</a></li>
+                <li><a href="#services">AI Capability Building</a></li>
+                <li><a href="#services">AI Workflow Transformation</a></li>
+                <li><a href="#services">AI Advisory Partnership</a></li>
               </ul>
             </div>
             <div className="fcol">
               <h4>Programs</h4>
               <ul>
-                <li><a href="#programs">Executive Briefing</a></li>
-                <li><a href="#programs">Practitioner Certification</a></li>
-                <li><a href="#programs">Agentic AI Intensive</a></li>
-                <li><a href="#programs">Workbook (Self-serve)</a></li>
+                <li><a href="#programs">Executive AI Strategy Briefing </a></li>
+                <li><a href="#programs">AI Practitioner Certification</a></li>
+                <li><a href="#programs">Agentic AI Transformation Intensive</a></li>
+                <li><a href="#programs">AI Readiness Workbook</a></li>
                 <li>
-                  <a href="#contact" style={{ color: "rgba(0,194,224,0.7)", fontStyle: "italic" }}>
+                  {/* <a href="#contact" style={{ color: "rgba(0,194,224,0.7)", fontStyle: "italic" }}>
                     Pricing on request →
-                  </a>
+                  </a> */}
                 </li>
               </ul>
             </div>
             <div className="fcol">
               <h4>Domains</h4>
               <ul>
-                <li><a href="#domains">L&amp;D</a></li>
-                <li><a href="#domains">HR</a></li>
-                <li><a href="#domains">Finance</a></li>
+                <li><a href="#domains">Sales &amp; Marketing</a></li>
+                <li><a href="#domains">IT & Digital</a></li>
                 <li><a href="#domains">Operations</a></li>
-                <li><a href="#domains">Marketing</a></li>
-                <li><a href="#domains">C-Suite</a></li>
+                <li><a href="#domains">Human Resources</a></li>
+                <li><a href="#domains">Learning & Development</a></li>
+                <li><a href="#domains">Finance & Risk </a></li>
+                <li><a href="#domains">Leadership & Strategy</a></li>
               </ul>
             </div>
+            
           </div>
           <div className="footer-bottom">
             <p>© 2026 Striikers · Hyderabad, India · All rights reserved</p>

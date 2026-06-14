@@ -9,19 +9,19 @@ const FAQ_ITEMS = [
   },
   {
     q: "Is this only for IT or tech teams?",
-    a: "No — in fact, most of our work is with non-technical functions: L&D, HR, Finance, Operations, and C-Suite. Each workshop is rebuilt around the specific work of that team, not generic AI theory. If anything, technical teams are a smaller portion of our work.",
+    a: "Not at all. AI transformation is a business initiative, not just a technology initiative. While we support IT and digital teams, much of our work focuses on functions such as Sales, Marketing L&D, HR, Finance, Operations, , and executive leadership. Every engagement is tailored to the team's workflows, priorities, and business objectives, ensuring practical adoption and measurable business impact.",
   },
   {
     q: "What size organisations do you work with?",
-    a: "We work with mid-size and large Indian enterprises — typically 200 to 5,000+ employees. The AI Audit scales with org size. Workshop programs can run for teams of 4 to 20 participants. We're not the right fit for individual freelancers or very small startups.",
+    a: "We work with organisations across a wide range of industries and stages of AI maturity. Whether you're exploring AI opportunities for the first time or looking to scale adoption across multiple functions, our approach is tailored to your goals, priorities, and business context.",
   },
   {
     q: "Do participants need any prior AI knowledge?",
-    a: "None at all. The Practitioner Certification is designed for people who are curious but have never built anything with AI. The pre-workshop diagnostic we run helps us meet participants exactly where they are. By the end of Day 1, participants have built 5 working AI tools — starting from zero.",
+    a: "No prior AI experience is required. Our programs are designed to accommodate participants at different levels of familiarity, from first-time users to experienced professionals exploring advanced applications.",
   },
   {
     q: "Where do you deliver — only Hyderabad?",
-    a: "We deliver onsite across India (Mumbai, Bangalore, Delhi, Pune, Chennai, Hyderabad) and virtually for distributed or remote teams. Travel is billed separately for outstation engagements. Virtual delivery works just as well for all formats.",
+    a: "We deliver programs onsite, virtually, and through hybrid formats—anywhere your teams are located. Whether you're bringing together a local team or a distributed workforce, our programs are designed to create a seamless, engaging, and impactful learning experience.",
   },
   {
     q: "What's the best way to start?",
@@ -39,10 +39,11 @@ export default function FaqSection() {
   return (
     <section className="faq-section" id="faq">
       <div className="sec">
-        <div className="sec-label">Common Questions</div>
-        <h2 className="sec-title">Questions Enterprises Usually Ask</h2>
+        <div className="sec-label">Frequently Asked Questions</div>
+        <h2 className="sec-title">Questions Business Leaders Ask</h2>
         <p className="sec-sub">
-          Answers to the things leadership teams want to know before they engage.
+        Insights into the most common questions leadership teams have when evaluating AI transformation, capability building, and enterprise adoption.
+
         </p>
         <div className="faq-list">
           {FAQ_ITEMS.map((item, i) => (
