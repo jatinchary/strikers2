@@ -241,7 +241,7 @@ export default function Home() {
                 <li>ROI model: projected time and cost savings per function</li>
               </ul>
               <div className="svc-price">
-                <a href="mailto:strikers4you@gmail.com?subject=AI Audit Enquiry" className="svc-cta">
+                <a href="#contact" className="svc-cta">
                   Book an Audit →
                 </a>
               </div>
@@ -302,7 +302,7 @@ export default function Home() {
                 <li>30/60/90-day outcome measurement</li>
               </ul>
               <div className="svc-price">
-                <a href="mailto:strikers4you@gmail.com?subject=AI Implementation Enquiry" className="svc-cta">
+                <a href="#contact" className="svc-cta">
                   Discuss Project →
                 </a>
               </div>
@@ -329,7 +329,7 @@ export default function Home() {
                 <li>Annual AI roadmap review and refresh</li>
               </ul>
               <div className="svc-price">
-                <a href="mailto:strikers4you@gmail.com?subject=Advisory Retainer Enquiry" className="svc-cta">
+                <a href="#contact" className="svc-cta">
                   Discuss Retainer →
                 </a>
               </div>
@@ -351,6 +351,50 @@ export default function Home() {
             for that team.
           </p>
           <div className="domains-grid">
+            <div className="domain-card">
+              <span className="domain-icon" role="img" aria-label="Marketing and Brand">📣</span>
+              <div className="domain-name">Marketing &amp; Brand</div>
+              <div className="domain-desc">
+                Content strategy, copy generation, campaign automation, social
+                listening and analytics.
+              </div>
+              <div className="domain-tags">
+                <span className="dtag">Available</span>
+              </div>
+            </div>
+            <div className="domain-card">
+              <span className="domain-icon" role="img" aria-label="Sales and Customer Experience">🛒</span>
+              <div className="domain-name">Sales &amp; CX</div>
+              <div className="domain-desc">
+                Proposal generation, CRM intelligence, call prep, objection
+                handling, customer insights.
+              </div>
+              <div className="domain-tags">
+                <span className="dtag">Available</span>
+              </div>
+            </div>
+            <div className="domain-card">
+              <span className="domain-icon" role="img" aria-label="Operations">⚙️</span>
+              <div className="domain-name">Operations</div>
+              <div className="domain-desc">
+                SOP documentation, process optimisation, reporting dashboards,
+                supply chain intelligence.
+              </div>
+              <div className="domain-tags">
+                <span className="dtag">Available</span>
+              </div>
+            </div>
+            <div className="domain-card">
+              <span className="domain-icon" role="img" aria-label="IT and Digital">💻</span>
+              <div className="domain-name">IT &amp; Digital</div>
+              <div className="domain-desc">
+                Agentic workflows, AI tooling strategy, prompt engineering,
+                developer AI enablement.
+              </div>
+              <div className="domain-tags">
+                <span className="dtag">Technical track</span>
+              </div>
+            </div>
             <div className="domain-card">
               <span className="domain-icon" role="img" aria-label="Learning and Development">🎓</span>
               <div className="domain-name">Learning &amp; Development</div>
@@ -394,50 +438,6 @@ export default function Home() {
               </div>
               <div className="domain-tags">
                 <span className="dtag">Available</span>
-              </div>
-            </div>
-            <div className="domain-card">
-              <span className="domain-icon" role="img" aria-label="Marketing and Brand">📣</span>
-              <div className="domain-name">Marketing &amp; Brand</div>
-              <div className="domain-desc">
-                Content strategy, copy generation, campaign automation, social
-                listening and analytics.
-              </div>
-              <div className="domain-tags">
-                <span className="dtag">Available</span>
-              </div>
-            </div>
-            <div className="domain-card">
-              <span className="domain-icon" role="img" aria-label="Sales and Customer Experience">🛒</span>
-              <div className="domain-name">Sales &amp; CX</div>
-              <div className="domain-desc">
-                Proposal generation, CRM intelligence, call prep, objection
-                handling, customer insights.
-              </div>
-              <div className="domain-tags">
-                <span className="dtag">Available</span>
-              </div>
-            </div>
-            <div className="domain-card">
-              <span className="domain-icon" role="img" aria-label="Operations">⚙️</span>
-              <div className="domain-name">Operations</div>
-              <div className="domain-desc">
-                SOP documentation, process optimisation, reporting dashboards,
-                supply chain intelligence.
-              </div>
-              <div className="domain-tags">
-                <span className="dtag">Available</span>
-              </div>
-            </div>
-            <div className="domain-card">
-              <span className="domain-icon" role="img" aria-label="IT and Digital">💻</span>
-              <div className="domain-name">IT &amp; Digital</div>
-              <div className="domain-desc">
-                Agentic workflows, AI tooling strategy, prompt engineering,
-                developer AI enablement.
-              </div>
-              <div className="domain-tags">
-                <span className="dtag">Technical track</span>
               </div>
             </div>
           </div>
@@ -590,7 +590,8 @@ export default function Home() {
               </div>
             </div>
             <a
-              href="mailto:strikers4you@gmail.com?subject=AI Audit Booking"
+              href="#contact"
+         
               className="btn-audit-cta"
             >
               Book Your AI Audit →
@@ -627,7 +628,7 @@ export default function Home() {
               </ul>
               <div className="prog-price-row">
                 <a
-                  href="mailto:strikers4you@gmail.com?subject=Executive Briefing Enquiry"
+                  href="#contact"
                   className="prog-btn prog-btn-out"
                 >
                   Enquire Now
@@ -689,7 +690,7 @@ export default function Home() {
               </ul>
               <div className="prog-price-row">
                 <a
-                  href="mailto:strikers4you@gmail.com?subject=Agentic AI Intensive Enquiry"
+                  href="#contact"
                   className="prog-btn prog-btn-out"
                 >
                   Explore Transformation Program
@@ -708,7 +709,7 @@ export default function Home() {
             </div>
             <div className="ret-right" style={{ textAlign: "right", flexShrink: 0 }}>
               <a
-                href="mailto:strikers4you@gmail.com?subject=Retainer Enquiry"
+                href="#contact"
                 style={{
                   display: "inline-block",
                   background: "linear-gradient(135deg, var(--navy), var(--blue))",
@@ -974,7 +975,10 @@ export default function Home() {
                   <option value="implementation">AI Implementation</option>
                   <option value="retainer">Advisory Retainer</option>
                   <option value="workbook">Workbook (Individual)</option>
-                  <option value="discovery">Just a Discovery Call</option>
+                  <option value="certification">AI Practitioner Certification</option>
+                  <option value="intensive">Agentic AI Transformation Intensive</option>
+                  <option value="advisory">Executive AI Briefing</option>
+                  <option value="discovery">Other</option>
                 </select>
               </div>
             </div>
