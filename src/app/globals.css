@@ -1872,7 +1872,7 @@ footer {
   .hamburger {
     display: flex;
   }
-  nav .nav-links li:not(:last-child) {
+  nav .nav-links {
     display: none;
   }
   .hero h1 {
