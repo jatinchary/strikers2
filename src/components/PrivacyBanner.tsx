@@ -1,19 +1,23 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useSyncExternalStore } from "react";
+
+function subscribeToStorage(cb: () => void) {
+  window.addEventListener("storage", cb);
+  return () => window.removeEventListener("storage", cb);
+}
+
+function getSnapshot() {
+  if (typeof window === "undefined") return false;
+  return !localStorage.getItem("privacyOk");
+}
 
 export default function PrivacyBanner() {
-  const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    if (!localStorage.getItem("privacyOk")) {
-      setVisible(true);
-    }
-  }, []);
+  const visible = useSyncExternalStore(subscribeToStorage, getSnapshot, () => false);
 
   const dismiss = () => {
     localStorage.setItem("privacyOk", "1");
-    setVisible(false);
+    window.dispatchEvent(new Event("storage"));
   };
 
   if (!visible) return null;

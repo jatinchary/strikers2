@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import useInView from "@/hooks/useInView";
 
 const FAQ_ITEMS = [
   {
@@ -31,6 +32,7 @@ const FAQ_ITEMS = [
 
 export default function FaqSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const { ref, inView } = useInView();
 
   const toggle = (i: number) => {
     setOpenIndex(openIndex === i ? null : i);
@@ -38,16 +40,19 @@ export default function FaqSection() {
 
   return (
     <section className="faq-section" id="faq">
-      <div className="sec">
-        <div className="sec-label">Frequently Asked Questions</div>
-        <h2 className="sec-title">Questions Business Leaders Ask</h2>
-        <p className="sec-sub">
-        Insights into the most common questions leadership teams have when evaluating AI transformation, capability building, and enterprise adoption.
-
+      <div className="sec" ref={ref}>
+        <div className={`sec-label anim-fade-up ${inView ? "in-view" : ""}`}>
+          Frequently Asked Questions
+        </div>
+        <h2 className={`sec-title anim-fade-up ${inView ? "in-view" : ""}`}>
+          Questions Business Leaders Ask
+        </h2>
+        <p className={`sec-sub anim-fade-up ${inView ? "in-view" : ""}`}>
+          Insights into the most common questions leadership teams have when evaluating AI transformation, capability building, and enterprise adoption.
         </p>
-        <div className="faq-list">
+        <div className={`faq-list anim-stagger ${inView ? "in-view" : ""}`}>
           {FAQ_ITEMS.map((item, i) => (
-            <div key={i} className={`faq-item${openIndex === i ? " open" : ""}`}>
+            <div key={item.q} className={`faq-item${openIndex === i ? " open" : ""}`}>
               <button
                 className="faq-q"
                 aria-expanded={openIndex === i}
