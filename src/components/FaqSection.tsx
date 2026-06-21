@@ -10,7 +10,7 @@ const FAQ_ITEMS = [
   },
   {
     q: "Is this only for IT or tech teams?",
-    a: "Not at all. AI transformation is a business initiative, not just a technology initiative. While we support IT and digital teams, much of our work focuses on functions such as Sales, Marketing L&D, HR, Finance, Operations, , and executive leadership. Every engagement is tailored to the team's workflows, priorities, and business objectives, ensuring practical adoption and measurable business impact.",
+    a: "Not at all. AI transformation is a business initiative, not just a technology initiative. While we support IT and digital teams, much of our work focuses on functions such as Sales, Marketing L&D, HR, Finance, Project Management & Operations, , and executive leadership. Every engagement is tailored to the team's workflows, priorities, and business objectives, ensuring practical adoption and measurable business impact.",
   },
   {
     q: "What size organisations do you work with?",

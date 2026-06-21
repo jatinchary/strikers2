@@ -53,7 +53,7 @@ export default function ServicesSection() {
               Role-based AI capability programs designed to help teams move from awareness to practical adoption. Each engagement is tailored to the workflows, priorities, and business objectives of the function—ensuring measurable application beyond the workshop.
             </p>
             <ul className="svc-list">
-              <li>Available for: L&amp;D, HR, Finance, Operations, Sales, Marketing, IT, Leadership, and more</li>
+              <li>Available for: L&amp;D, HR, Finance, Project Management & Operations, Sales, Marketing, IT, Leadership, and more</li>
               <li>Executive AI Briefing (4 hours) — strategic alignment for leadership teams</li>
               <li>Practitioner Certification (1 day) — hands-on enablement for functional teams</li>
               <li>Agentic AI Intensive (2 days) — workflow redesign and transformation acceleration</li>

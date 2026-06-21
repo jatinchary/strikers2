@@ -15,7 +15,7 @@ export default function ProgramsSection() {
           Three Engagement Models. Every Function. Measurable Impact.
         </h2>
         <p className={`sec-sub anim-fade-up ${inView ? "in-view" : ""}`}>
-          Available across Marketing, Sales, L&amp;D, HR, Finance, Operations, IT, and more. Our proven delivery framework remains consistent while each engagement is tailored to the priorities, workflows, and outcomes of the function.
+          Available across Marketing, Sales, L&amp;D, HR, Finance, Project Management & Operations, IT, and more. Our proven delivery framework remains consistent while each engagement is tailored to the priorities, workflows, and outcomes of the function.
         </p>
         <div className={`programs-grid anim-stagger ${inView ? "in-view" : ""}`}>
           <div className="prog-card">

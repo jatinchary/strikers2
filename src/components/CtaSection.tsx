@@ -95,13 +95,12 @@ export default function CtaSection() {
             ></textarea>
           </div>
           <button type="submit" className="cform-submit">
-            Send Message — We&apos;ll Respond Within 24 Hours
+            Send Message 
           </button>
         </form>
         <p className="cta-contact" style={{ marginTop: "20px" }}>
           Or email directly:{" "}
-          <a href="mailto:strikers4you@gmail.com">connect@striikers.com</a> ·
-          Hyderabad, India · Supporting organisations anywhere their teams are
+          <a href="mailto:strikers4you@gmail.com">connect@striikers.com</a> 
         </p>
       </div>
     </section>

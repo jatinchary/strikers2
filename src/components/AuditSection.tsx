@@ -74,6 +74,24 @@ export default function AuditSection() {
           </div>
           <div className="audit-gauge">
             <div className="gauge-label">
+              <span>Sales & Marketing</span>
+              <span>61 / 100</span>
+            </div>
+            <div className="gauge-bar">
+              <div className="gauge-fill" style={{ width: "61%" }}></div>
+            </div>
+          </div>
+          <div className="audit-gauge">
+            <div className="gauge-label">
+              <span>Project Management & Operations</span>
+              <span>35 / 100</span>
+            </div>
+            <div className="gauge-bar">
+              <div className="gauge-fill" style={{ width: "35%" }}></div>
+            </div>
+          </div>
+          <div className="audit-gauge">
+            <div className="gauge-label">
               <span>L&amp;D Function</span>
               <span>74 / 100</span>
             </div>
@@ -97,24 +115,6 @@ export default function AuditSection() {
             </div>
             <div className="gauge-bar">
               <div className="gauge-fill" style={{ width: "42%" }}></div>
-            </div>
-          </div>
-          <div className="audit-gauge">
-            <div className="gauge-label">
-              <span>Operations</span>
-              <span>35 / 100</span>
-            </div>
-            <div className="gauge-bar">
-              <div className="gauge-fill" style={{ width: "35%" }}></div>
-            </div>
-          </div>
-          <div className="audit-gauge">
-            <div className="gauge-label">
-              <span>Marketing</span>
-              <span>61 / 100</span>
-            </div>
-            <div className="gauge-bar">
-              <div className="gauge-fill" style={{ width: "61%" }}></div>
             </div>
           </div>
           <div className="audit-deliverables">
